@@ -1,0 +1,11 @@
+name: 0g-provider
+kind: model-provider
+version: 0.1.0
+description: 0G Private Computer models via the OpenAI-compatible API
+author: dragon888code
+requires_hermes: ">=0.23.3"
+requires_env:
+  - name: OG_API_KEY
+    description: 0G Private Computer API key (sk-...)
+    url: https://pc.0g.ai
+    secret: true
